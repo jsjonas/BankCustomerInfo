@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9FE0E9A26DEFCE000EDA396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE0E9926DEFCE000EDA396 /* AppDelegate.swift */; };
+		F9FE0E9C26DEFCE000EDA396 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE0E9B26DEFCE000EDA396 /* SceneDelegate.swift */; };
+		F9FE0E9E26DEFCE000EDA396 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE0E9D26DEFCE000EDA396 /* ViewController.swift */; };
+		F9FE0EA126DEFCE000EDA396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FE0E9F26DEFCE000EDA396 /* Main.storyboard */; };
+		F9FE0EA326DEFCE300EDA396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9FE0EA226DEFCE300EDA396 /* Assets.xcassets */; };
+		F9FE0EA626DEFCE300EDA396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FE0EA426DEFCE300EDA396 /* LaunchScreen.storyboard */; };
+		F9FE0EB126DEFCE400EDA396 /* lodumiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE0EB026DEFCE400EDA396 /* lodumiTests.swift */; };
+		F9FE0EBC26DEFCE400EDA396 /* lodumiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE0EBB26DEFCE400EDA396 /* lodumiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9FE0EAD26DEFCE400EDA396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9FE0E8E26DEFCE000EDA396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9FE0E9526DEFCE000EDA396;
+			remoteInfo = lodumi;
+		};
+		F9FE0EB826DEFCE400EDA396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9FE0E8E26DEFCE000EDA396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9FE0E9526DEFCE000EDA396;
+			remoteInfo = lodumi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9FE0E9626DEFCE000EDA396 /* lodumi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lodumi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FE0E9926DEFCE000EDA396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9FE0E9B26DEFCE000EDA396 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F9FE0E9D26DEFCE000EDA396 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9FE0EA026DEFCE000EDA396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9FE0EA226DEFCE300EDA396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9FE0EA526DEFCE300EDA396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9FE0EA726DEFCE300EDA396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9FE0EAC26DEFCE400EDA396 /* lodumiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lodumiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FE0EB026DEFCE400EDA396 /* lodumiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lodumiTests.swift; sourceTree = "<group>"; };
+		F9FE0EB226DEFCE400EDA396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9FE0EB726DEFCE400EDA396 /* lodumiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lodumiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FE0EBB26DEFCE400EDA396 /* lodumiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lodumiUITests.swift; sourceTree = "<group>"; };
+		F9FE0EBD26DEFCE400EDA396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9FE0E9326DEFCE000EDA396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FE0EA926DEFCE400EDA396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FE0EB426DEFCE400EDA396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9FE0E8D26DEFCE000EDA396 = {
+			isa = PBXGroup;
+			children = (
+				F9FE0E9826DEFCE000EDA396 /* lodumi */,
+				F9FE0EAF26DEFCE400EDA396 /* lodumiTests */,
+				F9FE0EBA26DEFCE400EDA396 /* lodumiUITests */,
+				F9FE0E9726DEFCE000EDA396 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9FE0E9726DEFCE000EDA396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9FE0E9626DEFCE000EDA396 /* lodumi.app */,
+				F9FE0EAC26DEFCE400EDA396 /* lodumiTests.xctest */,
+				F9FE0EB726DEFCE400EDA396 /* lodumiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9FE0E9826DEFCE000EDA396 /* lodumi */ = {
+			isa = PBXGroup;
+			children = (
+				F9FE0E9926DEFCE000EDA396 /* AppDelegate.swift */,
+				F9FE0E9B26DEFCE000EDA396 /* SceneDelegate.swift */,
+				F9FE0E9D26DEFCE000EDA396 /* ViewController.swift */,
+				F9FE0E9F26DEFCE000EDA396 /* Main.storyboard */,
+				F9FE0EA226DEFCE300EDA396 /* Assets.xcassets */,
+				F9FE0EA426DEFCE300EDA396 /* LaunchScreen.storyboard */,
+				F9FE0EA726DEFCE300EDA396 /* Info.plist */,
+			);
+			path = lodumi;
+			sourceTree = "<group>";
+		};
+		F9FE0EAF26DEFCE400EDA396 /* lodumiTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9FE0EB026DEFCE400EDA396 /* lodumiTests.swift */,
+				F9FE0EB226DEFCE400EDA396 /* Info.plist */,
+			);
+			path = lodumiTests;
+			sourceTree = "<group>";
+		};
+		F9FE0EBA26DEFCE400EDA396 /* lodumiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9FE0EBB26DEFCE400EDA396 /* lodumiUITests.swift */,
+				F9FE0EBD26DEFCE400EDA396 /* Info.plist */,
+			);
+			path = lodumiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9FE0E9526DEFCE000EDA396 /* lodumi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9FE0EC026DEFCE400EDA396 /* Build configuration list for PBXNativeTarget "lodumi" */;
+			buildPhases = (
+				F9FE0E9226DEFCE000EDA396 /* Sources */,
+				F9FE0E9326DEFCE000EDA396 /* Frameworks */,
+				F9FE0E9426DEFCE000EDA396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lodumi;
+			productName = lodumi;
+			productReference = F9FE0E9626DEFCE000EDA396 /* lodumi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9FE0EAB26DEFCE400EDA396 /* lodumiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9FE0EC326DEFCE400EDA396 /* Build configuration list for PBXNativeTarget "lodumiTests" */;
+			buildPhases = (
+				F9FE0EA826DEFCE400EDA396 /* Sources */,
+				F9FE0EA926DEFCE400EDA396 /* Frameworks */,
+				F9FE0EAA26DEFCE400EDA396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9FE0EAE26DEFCE400EDA396 /* PBXTargetDependency */,
+			);
+			name = lodumiTests;
+			productName = lodumiTests;
+			productReference = F9FE0EAC26DEFCE400EDA396 /* lodumiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9FE0EB626DEFCE400EDA396 /* lodumiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9FE0EC626DEFCE400EDA396 /* Build configuration list for PBXNativeTarget "lodumiUITests" */;
+			buildPhases = (
+				F9FE0EB326DEFCE400EDA396 /* Sources */,
+				F9FE0EB426DEFCE400EDA396 /* Frameworks */,
+				F9FE0EB526DEFCE400EDA396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9FE0EB926DEFCE400EDA396 /* PBXTargetDependency */,
+			);
+			name = lodumiUITests;
+			productName = lodumiUITests;
+			productReference = F9FE0EB726DEFCE400EDA396 /* lodumiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9FE0E8E26DEFCE000EDA396 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F9FE0E9526DEFCE000EDA396 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					F9FE0EAB26DEFCE400EDA396 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F9FE0E9526DEFCE000EDA396;
+					};
+					F9FE0EB626DEFCE400EDA396 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F9FE0E9526DEFCE000EDA396;
+					};
+				};
+			};
+			buildConfigurationList = F9FE0E9126DEFCE000EDA396 /* Build configuration list for PBXProject "lodumi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9FE0E8D26DEFCE000EDA396;
+			productRefGroup = F9FE0E9726DEFCE000EDA396 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9FE0E9526DEFCE000EDA396 /* lodumi */,
+				F9FE0EAB26DEFCE400EDA396 /* lodumiTests */,
+				F9FE0EB626DEFCE400EDA396 /* lodumiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9FE0E9426DEFCE000EDA396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FE0EA626DEFCE300EDA396 /* LaunchScreen.storyboard in Resources */,
+				F9FE0EA326DEFCE300EDA396 /* Assets.xcassets in Resources */,
+				F9FE0EA126DEFCE000EDA396 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FE0EAA26DEFCE400EDA396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FE0EB526DEFCE400EDA396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9FE0E9226DEFCE000EDA396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FE0E9E26DEFCE000EDA396 /* ViewController.swift in Sources */,
+				F9FE0E9A26DEFCE000EDA396 /* AppDelegate.swift in Sources */,
+				F9FE0E9C26DEFCE000EDA396 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FE0EA826DEFCE400EDA396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FE0EB126DEFCE400EDA396 /* lodumiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FE0EB326DEFCE400EDA396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FE0EBC26DEFCE400EDA396 /* lodumiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9FE0EAE26DEFCE400EDA396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9FE0E9526DEFCE000EDA396 /* lodumi */;
+			targetProxy = F9FE0EAD26DEFCE400EDA396 /* PBXContainerItemProxy */;
+		};
+		F9FE0EB926DEFCE400EDA396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9FE0E9526DEFCE000EDA396 /* lodumi */;
+			targetProxy = F9FE0EB826DEFCE400EDA396 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9FE0E9F26DEFCE000EDA396 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9FE0EA026DEFCE000EDA396 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9FE0EA426DEFCE300EDA396 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9FE0EA526DEFCE300EDA396 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9FE0EBE26DEFCE400EDA396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9FE0EBF26DEFCE400EDA396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9FE0EC126DEFCE400EDA396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RPFY3SYVK;
+				INFOPLIST_FILE = lodumi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.lodumi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9FE0EC226DEFCE400EDA396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RPFY3SYVK;
+				INFOPLIST_FILE = lodumi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.lodumi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9FE0EC426DEFCE400EDA396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RPFY3SYVK;
+				INFOPLIST_FILE = lodumiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.lodumiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lodumi.app/lodumi";
+			};
+			name = Debug;
+		};
+		F9FE0EC526DEFCE400EDA396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RPFY3SYVK;
+				INFOPLIST_FILE = lodumiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.lodumiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lodumi.app/lodumi";
+			};
+			name = Release;
+		};
+		F9FE0EC726DEFCE400EDA396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RPFY3SYVK;
+				INFOPLIST_FILE = lodumiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.lodumiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lodumi;
+			};
+			name = Debug;
+		};
+		F9FE0EC826DEFCE400EDA396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RPFY3SYVK;
+				INFOPLIST_FILE = lodumiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.lodumiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lodumi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9FE0E9126DEFCE000EDA396 /* Build configuration list for PBXProject "lodumi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FE0EBE26DEFCE400EDA396 /* Debug */,
+				F9FE0EBF26DEFCE400EDA396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9FE0EC026DEFCE400EDA396 /* Build configuration list for PBXNativeTarget "lodumi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FE0EC126DEFCE400EDA396 /* Debug */,
+				F9FE0EC226DEFCE400EDA396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9FE0EC326DEFCE400EDA396 /* Build configuration list for PBXNativeTarget "lodumiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FE0EC426DEFCE400EDA396 /* Debug */,
+				F9FE0EC526DEFCE400EDA396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9FE0EC626DEFCE400EDA396 /* Build configuration list for PBXNativeTarget "lodumiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FE0EC726DEFCE400EDA396 /* Debug */,
+				F9FE0EC826DEFCE400EDA396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9FE0E8E26DEFCE000EDA396 /* Project object */;
+}
