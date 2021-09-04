@@ -15,6 +15,11 @@
 		F9FE0EA626DEFCE300EDA396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FE0EA426DEFCE300EDA396 /* LaunchScreen.storyboard */; };
 		F9FE0EB126DEFCE400EDA396 /* lodumiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE0EB026DEFCE400EDA396 /* lodumiTests.swift */; };
 		F9FE0EBC26DEFCE400EDA396 /* lodumiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE0EBB26DEFCE400EDA396 /* lodumiUITests.swift */; };
+		F9FE0ECA26DF153C00EDA396 /* OperationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE0EC926DF153C00EDA396 /* OperationModel.swift */; };
+		F9FE0ECC26DF26CA00EDA396 /* myjson.json in Resources */ = {isa = PBXBuildFile; fileRef = F9FE0ECB26DF26CA00EDA396 /* myjson.json */; };
+		F9FE0ECE26DF54EC00EDA396 /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE0ECD26DF54EC00EDA396 /* CellModel.swift */; };
+		F9FE0ED226E0CA5900EDA396 /* OperationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE0ED126E0CA5900EDA396 /* OperationViewController.swift */; };
+		F9FE0ED426E149FE00EDA396 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE0ED326E149FE00EDA396 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		F9FE0EB726DEFCE400EDA396 /* lodumiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lodumiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9FE0EBB26DEFCE400EDA396 /* lodumiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lodumiUITests.swift; sourceTree = "<group>"; };
 		F9FE0EBD26DEFCE400EDA396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9FE0EC926DF153C00EDA396 /* OperationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationModel.swift; sourceTree = "<group>"; };
+		F9FE0ECB26DF26CA00EDA396 /* myjson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myjson.json; sourceTree = SOURCE_ROOT; };
+		F9FE0ECD26DF54EC00EDA396 /* CellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
+		F9FE0ED126E0CA5900EDA396 /* OperationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationViewController.swift; sourceTree = "<group>"; };
+		F9FE0ED326E149FE00EDA396 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +114,13 @@
 				F9FE0E9D26DEFCE000EDA396 /* ViewController.swift */,
 				F9FE0E9F26DEFCE000EDA396 /* Main.storyboard */,
 				F9FE0EA226DEFCE300EDA396 /* Assets.xcassets */,
+				F9FE0ECB26DF26CA00EDA396 /* myjson.json */,
 				F9FE0EA426DEFCE300EDA396 /* LaunchScreen.storyboard */,
 				F9FE0EA726DEFCE300EDA396 /* Info.plist */,
+				F9FE0EC926DF153C00EDA396 /* OperationModel.swift */,
+				F9FE0ECD26DF54EC00EDA396 /* CellModel.swift */,
+				F9FE0ED126E0CA5900EDA396 /* OperationViewController.swift */,
+				F9FE0ED326E149FE00EDA396 /* ViewModel.swift */,
 			);
 			path = lodumi;
 			sourceTree = "<group>";
@@ -234,6 +249,7 @@
 				F9FE0EA626DEFCE300EDA396 /* LaunchScreen.storyboard in Resources */,
 				F9FE0EA326DEFCE300EDA396 /* Assets.xcassets in Resources */,
 				F9FE0EA126DEFCE000EDA396 /* Main.storyboard in Resources */,
+				F9FE0ECC26DF26CA00EDA396 /* myjson.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9FE0E9E26DEFCE000EDA396 /* ViewController.swift in Sources */,
+				F9FE0ECA26DF153C00EDA396 /* OperationModel.swift in Sources */,
+				F9FE0ECE26DF54EC00EDA396 /* CellModel.swift in Sources */,
+				F9FE0ED226E0CA5900EDA396 /* OperationViewController.swift in Sources */,
 				F9FE0E9A26DEFCE000EDA396 /* AppDelegate.swift in Sources */,
 				F9FE0E9C26DEFCE000EDA396 /* SceneDelegate.swift in Sources */,
+				F9FE0ED426E149FE00EDA396 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8RPFY3SYVK;
 				INFOPLIST_FILE = lodumi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +479,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8RPFY3SYVK;
 				INFOPLIST_FILE = lodumi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
