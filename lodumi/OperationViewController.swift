@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 class operationIdViewController: ViewController {
-    var operationId = Double()
+    var operationId = CUnsignedLong()
 
     
     @IBOutlet weak var opIdLabel: UILabel!

@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     
     private var viewModel = dataViewModel()
-    private var tempId: Double?
+    private var tempId: CUnsignedLong?
     private var filteredData: [Operation] = []
     var filterActive = false
 
@@ -22,7 +22,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         filteredData = viewModel.operations
-
         
         super.viewDidLoad()
 
@@ -68,7 +67,6 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate, UISearchBa
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-//        let operation = viewModel.operations[indexPath.row]
         let operation = filterActive ? filteredData[indexPath.row] : viewModel.operations[indexPath.row]
 
         switch operation.operationType {
@@ -121,7 +119,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate, UISearchBa
                     filterActive = false
                     self.opTableView.reloadData()
                     return
-                }
+        }
         
         filteredData = viewModel.operations.filter({ (item) -> Bool in
             switch type(of: item) {
@@ -149,12 +147,11 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate, UISearchBa
         self.opTableView.reloadData()
     }
     
-    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-        searchBar.text = nil
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         filterActive = false
         self.opTableView.reloadData()
+        searchBar.endEditing(true)
     }
-    
 }
 
 extension LosslessStringConvertible {

@@ -43,7 +43,7 @@ class dataViewModel {
                         let amount = item["amount"] as? Double
                         let source = item["source"] as? String
                         let adress = item["address"] as? String
-                        let opId = item["operationId"] as? Double
+                        let opId = item["operationId"] as? CUnsignedLong
                         let cash = CashWithdrawal(operationId: opId!, operationType: optype!, amount: amount!, source: source!, adress: adress!)
                         operations.append(cash)
                         
@@ -53,7 +53,7 @@ class dataViewModel {
                         let optype = item["operationType"] as? String
                         let amount = item["amount"] as? Double
                         let desc = item["operationDesc"] as? String
-                        let opId = item["operationId"] as? Double
+                        let opId = item["operationId"] as? CUnsignedLong
                         let cash = ChargeOperation(operationId: opId!, operationType: optype!, amount: amount!, operationDesc: desc!)
                         operations.append(cash)
                         break
@@ -61,7 +61,7 @@ class dataViewModel {
                         let optype = item["operationType"] as? String
                         let amount = item["amount"] as? Double
                         let desc = item["operationDesc"] as? String
-                        let opId = item["operationId"] as? Double
+                        let opId = item["operationId"] as? CUnsignedLong
                         let cash = OtherOperation(operationId: opId!, operationType: optype!, amount: amount!, operationDesc: desc!)
                         operations.append(cash)
                         

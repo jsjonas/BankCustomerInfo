@@ -10,9 +10,9 @@ import Foundation
 class Operation {
     let amount: Double
     let operationType: String
-    let operationId: Double
+    let operationId: CUnsignedLong
     
-    init(operationId: Double, operationType: String, amount: Double) {
+    init(operationId: CUnsignedLong, operationType: String, amount: Double) {
         self.amount = amount
         self.operationId = operationId
         self.operationType = operationType
@@ -29,7 +29,7 @@ class CashWithdrawal: Operation {
     
     
     
-    init(operationId: Double, operationType: String, amount: Double, source: String, adress: String) {
+    init(operationId: CUnsignedLong, operationType: String, amount: Double, source: String, adress: String) {
         self.source = source
         self.adress = adress
         super.init(operationId: operationId, operationType: operationType, amount: amount)
@@ -42,7 +42,7 @@ class OtherOperation: Operation {
     let operationDesc: String
     
 
-    init(operationId: Double, operationType: String, amount: Double, operationDesc: String) {
+    init(operationId: CUnsignedLong, operationType: String, amount: Double, operationDesc: String) {
         self.operationDesc = operationDesc
         super.init(operationId: operationId, operationType: operationType, amount: amount)
 
@@ -55,7 +55,7 @@ class ChargeOperation: Operation {
     
 
     
-    init(operationId: Double, operationType: String, amount: Double, operationDesc: String) {
+    init(operationId: CUnsignedLong, operationType: String, amount: Double, operationDesc: String) {
         self.operationDesc = operationDesc
         super.init(operationId: operationId, operationType: operationType, amount: amount)
 
